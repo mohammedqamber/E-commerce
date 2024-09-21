@@ -1,5 +1,5 @@
 import React, {Suspense} from 'react'
-import SkeletonCart from '../components/skeleton/skeletonCart'
+import SkeletonCart from '../components/skeleton/SkeletonCart'
 
 const LazyCartComp = React.lazy(() => import('./Cart'))
 
