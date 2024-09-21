@@ -1,5 +1,5 @@
 import React from 'react'
-import Skeleton from './SkeletonProductCard'
+import SkeletonProductCard from './SkeletonProductCard'
 
 function SkeletonList() {
     return (
@@ -8,10 +8,10 @@ function SkeletonList() {
           Products
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          <Skeleton />
-          <Skeleton />
-          <Skeleton />
-          <Skeleton />
+          <SkeletonProductCard />
+          <SkeletonProductCard />
+          <SkeletonProductCard />
+          <SkeletonProductCard />
         </div>
       </div>
     )

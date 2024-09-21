@@ -1,6 +1,6 @@
 import React from "react";
 
-function Skeleton() {
+function SkeletonProductCard() {
   return (
     <div className="max-w-sm bg-white lg:h-[423px] lg:w-[294px] border-1 border-gray-200 shadow-md overflow-hidden animate-pulse transition duration-50 ">
       <div className="h-[183px]  bg-gray-200">
@@ -18,4 +18,4 @@ function Skeleton() {
   );
 }
 
-export default Skeleton;
+export default SkeletonProductCard;
