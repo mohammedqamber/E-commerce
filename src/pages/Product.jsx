@@ -25,6 +25,7 @@ const ProductPage = () => {
   ) : (
     <div className="min-h-[90vh] bg-[#f1eedc66] flex items-center justify-center p-6">
       <div className="max-w-5xl w-full bg-gray-50 rounded-lg shadow-xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+        
         {/* Product Image */}
         <div className="bg-white p-6 flex items-center justify-center border-r border-gray-200">
           <img
