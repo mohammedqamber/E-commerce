@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import SkeletonList from '../components/skeleton/skeletonList'
+import SkeletonList from '../components/skeleton/SkeletonList'
 const LazyList = React.lazy(() => import('./ProductList'))
 
 function LazyProductList() {
