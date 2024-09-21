@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
-import SkeletonList from "../components/skeleton/skeletonList";
+import SkeletonList from "../components/skeleton/SkeletonList";
 import Filter from "../components/Filter";
 
 function ProductList() {

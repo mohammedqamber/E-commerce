@@ -8,7 +8,7 @@ function LazyCart() {
         <Suspense fallback={<SkeletonCart/>}>
             <LazyCartComp/>
         </Suspense>
-        
+              
     )
 }
 
