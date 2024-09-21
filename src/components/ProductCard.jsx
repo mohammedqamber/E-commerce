@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
 
           <div className="p-2 lg:p-5 sm:p-1 h-[10rem] lg:h-[12rem]">
             <h5 className="text-base font-semibold tracking-tight text-gray-900">
-            {((product.title).split(" ").length > 8) ? ((product.title).split(" ").slice(0, 5).join(" ") + "..." ) : (product.title)}
+            {((product.title).split(" ").length > 5) ? ((product.title).split(" ").slice(0, 5).join(" ") + "..." ) : (product.title)}
             </h5>
 
             <div className="flex items-center mt-3 justify-between">
